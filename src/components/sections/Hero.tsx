@@ -18,7 +18,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-fade-in">
           <span className="text-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Hello, I'm</span>
           <br />
-          <span className="text-primary whitespace-nowrap">G P L Gowtham chand</span>
+          <span className="text-primary whitespace-nowrap">Ayenampudi Sai L N Karuna Teja Varma</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground max-w-xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: "200ms", animationFillMode: "forwards" }}>

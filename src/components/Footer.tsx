@@ -13,7 +13,7 @@ export default function Footer() {
               href="./"
               className="px-3 py-2 text-sm font-medium border-primary/30 bg-secondary/30 link-underline link-hover transition-all duration-300 shadow-sm transform hover:scale-105 hover:border-primary hover:bg-primary/10 cursor-pointer"
             >
-              GPL Gowtham chand{` © ${new Date().getFullYear()}`}
+              Sai Teja{` © ${new Date().getFullYear()}`}
             </Link>
           </div>
           {`•`}

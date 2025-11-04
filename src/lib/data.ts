@@ -5,9 +5,9 @@ export const about = {
   title: "About Me",
   description: "I'm a passionate Android and Web Developer with a strong foundation in AI and Data Science. I love building intuitive and efficient applications, whether it's mobile apps, web platforms, or AI-driven solutions. My journey in tech has been shaped by hands-on projects, internships, and a drive to constantly learn and innovate. Currently pursuing my B.Tech in CSE (AI & DS) at KIET, I have experience in Android development, web technologies, and machine learning.",
   skills:[
-    "Kotlin", "Android Studio", "ReactJS", "JavaScript", "Python", 
-    "HTML", "CSS", "Bootstrap", "SQL", "MongoDB", "Git", "Postman",
-    "Machine Learning Basics", "Flask", "XML", "VS Code", "C", "Linux", "TypeScript", "Supabase"
+    "Python",
+    "HTML", "CSS","SQL Basics",
+    "Machine Learning Basics"
   ],
 };
 
@@ -82,7 +82,7 @@ export const experiences = [
 // Journey (Timeline)
 export const journeyPoints = [
   {
-    year: "2002",
+    year: "2004",
     title: "Born",
     description: "Connetected to internet, nah just born.",
   },
@@ -94,22 +94,17 @@ export const journeyPoints = [
   {
     "year": "2019",
     "title": "Completed 10th Grade",
-    "description": "Graduated from St. Anne's High School, Chintapalli, securing a 9.0 GPA and leading as Yellow House Captain."
+    "description": "Graduated from Sri Chaitanya School, Payakaraopeta, securing a 9.2 GPA ."
   },
   {
     "year": "2021",
     "title": "Completed Intermediate (+2)",
-    "description": "Studied at NRI Jr College, Chinnamusidiwada, focusing on academics and personal development."
+    "description": "Studied at Sri Chaitanya Jr College, Tuni, focusing on academics and personal development."
   },
   {
     "year": "2021",
     "title": "Started B.Tech in CSE (AI & DS)",
     "description": "Joined Kakinada Institute of Engineering and Technology (KIET) to dive deep into AI, Data Science, and Software Development."
-  },
-  {
-    "year": "2024",
-    "title": "First Internship - Web Developer",
-    "description": "Completed an internship at Codsoft, building a tribute page, a job board website, and a language translation project."
   },
   {
     "year": "2025 APR 20",
@@ -126,22 +121,6 @@ export const journeyPoints = [
 // Projects
 export const projects = [
   {
-    "title": "FlickrTalk",
-    "description": "FlickrTalk is a private messaging web application focused on user privacy and secure conversations. Built with TypeScript and Supabase for real-time messaging and authentication.",
-    "technologies": ["TypeScript", "Supabase", "React.js", "Tailwind CSS"],
-    "image": "/flickr.png",
-    "link": "https://flickr-talk.vercel.app/",
-    "github": "https://github.com/gpl-gowthamchand/FlickrTalk"
-  },
-  {
-    "title": "Tribute Page - Captain America (Chris Evans)",
-    "description": "Created a tribute webpage dedicated to Captain America, highlighting the character's legacy and impact.",
-    "technologies": ["HTML", "CSS"],
-    "image": "/tribute.png",
-    "link": "https://gpl-gowthamchand.github.io/CODSOFT/",
-    github: "https://github.com/gpl-gowthamchand/CODSOFT"
-  },
-  {
     "title": "Machine Translation using Mbart",
     "description": "Final year project focused on building a machine translation system using pretrained MBART models to translate text between multiple languages effectively.",
     "technologies": ["Mbart", "NLP", "Python"],
@@ -149,72 +128,11 @@ export const projects = [
     "link": "#",
     github: "https://github.com/KIET-2025-BATCH/K-AIDS-HS-T13"
   },
-  {
-    "title": "LanguageBridge",
-    "description": "LanguageBridge is a multilingual translation web application inspired by my final year project. It offers text translation, speech-to-text, text-to-speech, automatic language detection, and file import/export features using mBART, Google Translate, and LibreTranslate APIs with fallback handling.",
-    "technologies": [
-      "React.js", 
-      "TypeScript", 
-      "Tailwind CSS", 
-      "Hugging Face (mBART)", 
-      "Google Translate API", 
-      "LibreTranslate API", 
-      "Web Speech API", 
-      "Vite", 
-      "Netlify"
-    ],
-    "image": "/langBridge.png",
-    "link": "https://language-bridge.netlify.app/",
-    "github": "https://github.com/gpl-gowthamchand/LanguageBridge"
-  },
-  {
-   "title": "Customer Segmentation",
-    "description": "Implemented a customer segmentation model for targeted marketing strategies using clustering techniques.",
-    "technologies": ["Python", "Machine Learning", "Pandas"],
-    "image": "/CustSegMock.png",
-    "link": "#",
-    github: "#"
-  },
-  {
-    "title": "Language Translation using JavaScript",
-    "description": "Built a simple language translation tool using JavaScript, allowing users to translate text dynamically.",
-    "technologies": ["JavaScript", "HTML", "CSS"],
-    "image": "/lang tran js.png",
-    "link": "https://gpl-gowthamchand.github.io/language_translator_usingJS/",
-    github: "https://github.com/gpl-gowthamchand/language_translator_usingJS"
-  },
-  {
-    "title": "Job Board Website",
-    "description": "Developed a fully responsive job board website that allows job seekers to browse and apply for jobs.",
-    "technologies": ["HTML", "CSS", "Bootstrap"],
-    "image": "/jobboard.png",
-    "link": "#",
-    github: "https://github.com/gpl-gowthamchand/CODSOFT_jobboard_frontend"
-  },
-
-  {
-    "title": "Mock Portfolio 2",
-    "description": "A professional portfolio template built with Next.js 15.4.6, featuring modern UI/UX design, dark theme with purple accents, responsive layout, and performance optimizations. Includes code splitting, image optimization, and PWA capabilities.",
-    "technologies": ["Next.js 15.4.6", "React 18.3.1", "Tailwind CSS 3.0", "TypeScript", "ESLint", "Prettier", "Husky", "PostCSS"],
-    "image": "/mock-folio2.png",
-    "link": "https://mockportfolio02.netlify.app/",
-    "github": "https://github.com/gpl-gowthamchand/portfolio-mock02"
-  },
-
-  {
-    "title": "Mock Portfolio",
-    "description": "This is a customizable and reusable portfolio template built with a modern frontend stack. Designed for developers to fork and showcase their work professionally. Includes responsive design, clean layout, and easy configuration.",
-    "technologies": ["Next.js", "CSS Modules", "Tailwind CSS", "Geist Font"],
-    "image": "/mock-folio.png",
-    "link": "https://mockfolio.netlify.app/",
-    "github": "https://github.com/gpl-gowthamchand/portfolio_mock"
-  },
-  
 ];
 
 // Contact information
 export const contact = {
-  email: "gpl.gowthamchand@gmail.com",
-  github: "https://github.com/gpl-gowthamchand",
-  linkedin: "https://linkedin.com/in/gplgowthamchand",
+  email: "saitejavarmaayenampudi@gmail.com",
+  github: "https://github.com/saitejavarmaayenampudi",
+  linkedin: "https://www.linkedin.com/in/sai-l-n-karuna-teja-varma-ayenampudi-548aa8353/",
 };
